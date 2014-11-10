@@ -6,20 +6,24 @@ maven (http://maven.apache.org)
 
 
 ------------------------------------------------
-2. Setting up the porject
+2. Setting up the project
 ------------------------------------------------
 a. Mac
 	- Make sure you have installed Xcode
 	- Install maven through (brew install maven)
-	- download the starter code
+	- download the starter code from:
+          https://github.com/AnthonySMaida
 	- Rename starter code folder appropriately with _CLID at the end of folder name
 	- cd to the starter code folder
 		- make help (to see all the targets)
 		- make all
 		- make run
+                If you cloned from github.com/AnthonySMaida, the commands
+                below are not needed. They apply when you are creating a 
+                new repository.
 		- git init
 		- git status . (Tells you the details the repository)
-		- git add -u
+		- git add *
 		- git commit -m "Fresh setup"
 b. Linux
 	- Install Java and Maven
